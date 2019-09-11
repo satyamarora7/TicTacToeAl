@@ -111,7 +111,7 @@ class MainActivity : AppCompatActivity() {
             when{
                 board.hasComputerWon() -> text_view_result.text = "You lose😢"
                 board.hasPlayerWon() -> text_view_result.text = "You won😁"
-                board.isGameOver -> text_view_result.text = "Game Tied🤷‍♂️"
+                board.isGameOver -> text_view_result.text = "Game Tied🤞"
             }
         }
     }

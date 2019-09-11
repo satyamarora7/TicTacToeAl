@@ -26,8 +26,10 @@
             tools:text="Computer Won"
             android:id="@+id/text_view_result"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" app:fontFamily="casual" android:textStyle="bold"
-            android:textAllCaps="false" android:textSize="30sp"/>
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textSize="30sp"/>
 
     <GridLayout
             android:padding="16dp"
@@ -46,7 +48,9 @@
             android:layout_alignParentBottom="true"
             android:id="@+id/button_restart"
             android:textAllCaps="false"
-            android:text="Restart"
+            android:text="RESTART"
+            android:textColor="@android:color/black"
+            android:background="@drawable/restart"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 

@@ -4,8 +4,8 @@ class Board {
 
     //Strings for PLAYER and COMPUTER
     companion object {
-        const val PLAYER = "O"
-        const val COMPUTER = "X"
+        const val PLAYER = "circle"
+        const val COMPUTER = "cross"
     }
 
     /**
